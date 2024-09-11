@@ -89,7 +89,7 @@
           <mxGeometry x="270" y="410" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aVdn5bqDrRzkXOfHNq4E-3" value="Times Hosted" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="330" y="310" width="100" height="40" as="geometry" />
+          <mxGeometry x="350" y="290" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aVdn5bqDrRzkXOfHNq4E-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" target="aVdn5bqDrRzkXOfHNq4E-3" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
