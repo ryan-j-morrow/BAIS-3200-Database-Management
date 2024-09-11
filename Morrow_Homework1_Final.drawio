@@ -67,8 +67,8 @@
         <mxCell id="-OQ1VOCRAkG5Sb6Z3kr7-2" value="&lt;div&gt;LOCATIONS&lt;/div&gt;&lt;div&gt;&lt;u style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;LocationCode&lt;/b&gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Location (City, State Code, Country)&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="340" y="100" width="120" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="-OQ1VOCRAkG5Sb6Z3kr7-3" value="&lt;div&gt;HOSTS&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;&lt;b&gt;HostID&lt;/b&gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Host (First, Last)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;{Known For}&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;[Times Hosted]&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="340" y="290" width="120" height="140" as="geometry" />
+        <mxCell id="-OQ1VOCRAkG5Sb6Z3kr7-3" value="&lt;div&gt;HOSTS&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;&lt;b&gt;HostID&lt;/b&gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Host (First, Last)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;{Known For}&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="390" y="410" width="120" height="140" as="geometry" />
         </mxCell>
         <mxCell id="-OQ1VOCRAkG5Sb6Z3kr7-4" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="-OQ1VOCRAkG5Sb6Z3kr7-1" target="-OQ1VOCRAkG5Sb6Z3kr7-2" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -86,7 +86,16 @@
           <mxGeometry x="240" y="140" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l63VMVd5FuUCUN8vJkQk-2" value="Has" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="345" width="60" height="30" as="geometry" />
+          <mxGeometry x="270" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aVdn5bqDrRzkXOfHNq4E-3" value="Times Hosted" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="330" y="310" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aVdn5bqDrRzkXOfHNq4E-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" target="aVdn5bqDrRzkXOfHNq4E-3" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="370" as="sourcePoint" />
+            <mxPoint x="770" y="350" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
